@@ -1,0 +1,11 @@
+Where do you put non-visible content about the HTML document?
+<head></head>
+
+Where do you put visible content about the HTML document?
+<body></body>
+
+Where do the <head> and <body> tags go in a valid HTML document?
+<html></html>
+
+What is the purpose of a <!DOCTYPE> declaration?
+version of html using
