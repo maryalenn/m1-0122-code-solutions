@@ -20,18 +20,21 @@ body {
   flex-basis: calc(100%/3);
   padding: 10px;
 }
-.column-one-third img {
 
-}
-
-img.circle {
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /*circle background*/
   background-color: white;
   border-radius: 50%;
-  height: 175px;
-  width: 175px;
-  margin: auto;
-  display: block;
-  padding:10px
+  height: 150px;
+  width: 150px;
+}
+
+img {
+  width:80px;
 }
 h2, h3, p {
   text-align: center;
