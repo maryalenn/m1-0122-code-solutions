@@ -31,7 +31,7 @@ function getFirstName(person){
 };
 
 var personFirstName = getFirstName({firstName:'LeLouche', lastName:'Lamperouge'})
-console.log(personFirstName);
+console.log('the value of personFirstName: ',personFirstName);
 
 //5.
 function getLastElement(array){
