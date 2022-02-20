@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 p, li {
   color: #6e6e6e;
 }
-#page-home h2, #page-home h3, #page-home h4, #page-home h5, #page-home h6 {
+.page-home h2, .page-home h3, .page-home h4, .page-home h5, .page-home h6 {
   color:#6e6e6e;
 }
 
@@ -190,12 +190,15 @@ section.hero-banner {
   margin-bottom: 50px;
 }
 
-#page-home section.hero-banner{
+.page-home section.hero-banner{
   background-image: url(images/hero.jpg);
 }
 
-#page-product section.hero-banner{
+.page-product section.hero-banner{
   background-image: url(images/product/product-header.jpg);
+}
+.page-implementation section.hero-banner {
+  background-image: url(images/implementation/implementation-header.jpg);
 }
 .overlay {
   position:absolute;
@@ -217,7 +220,7 @@ section.hero-banner {
 }
 .hero-banner p {
   font-size: 18px;
-  line-height: 1.75;
+  line-height: 1.5;
   padding-right: 15px;
 }
 div.border {
@@ -234,4 +237,25 @@ div.border {
 }
 .grey-background {
   background-color: #fafafa;
+}
+.styled-numbered-list {
+  margin:30px auto 160px;
+}
+.styled-numbered-list li {
+  font-family: "Tiempos Headline", serif;
+  font-size: 1.7rem;
+  padding-left:5px;
+}
+.styled-numbered-list h2 {
+  font-size: 1.7rem;
+}
+.styled-numbered-list h3 {
+  font-family: Avenir, sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.styled-numbered-list p {
+  font-family: Avenir, sans-serif;
+  font-size: 1.2rem;
+  margin-left: -25px;
 }
