@@ -18,8 +18,8 @@
    }
    return result;
    };
-  isUnderFive();
-  // console.log('Testing isUnderFive: ',isUnderFive(3));
+  // isUnderFive();
+  // console.log('is 3 under Five ',isUnderFive(3));
 
 
   //2. isEven(number)
@@ -32,8 +32,8 @@
     }
     return result;
   };
-  isEven();
-  // console.log(isEven(505));
+  // isEven();
+  // console.log("Is 505 Even? ",isEven(505));
 
 //3. startsWithJ(string)
   function startsWithJ (string) {
@@ -57,13 +57,13 @@
 
   };
 
-  // var homer = {
-  //   name: 'Homer Jay Simpson',
-  //   age: 39
-  // };
-  // console.log(isOldEnoughToDrink(homer));
-  // console.log(isOldEnoughToDrive(homer));
-  // console.log(isOldEnoughToDrinkAndDrive(homer));
+//   var homer = {
+//     name: 'Homer Jay Simpson',
+//     age: 39
+//   };
+// console.log("Is Homer Old Enough to Drink? ",isOldEnoughToDrink(homer));
+// console.log("Is Homer Old Enough to Drive? ", isOldEnoughToDrive(homer));
+// console.log("Is Homer Old Enough to Drink and Drive? ",isOldEnoughToDrinkAndDrive(homer));
 
   //7. categorizeAcidity(pH)
   function categorizeAcidity (pH) {
@@ -72,6 +72,15 @@
     else if ((pH <=14) && (pH > 7)) {return "base"}
     else {return "invalid pH level"};
   };
+
+// console.log("Acidity -1: ", categorizeAcidity(-1));
+// console.log("Acidity 14.00001: ", categorizeAcidity(14.00001));
+// console.log("Acidity 7: ", categorizeAcidity(7));
+// console.log("Acidity 2: ", categorizeAcidity(2));
+// console.log("Acidity 9: ", categorizeAcidity(9));
+
+
+
 
 //8. introduceWarnerBro(name)
   function introduceWarnerBro (name) {
