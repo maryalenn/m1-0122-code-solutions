@@ -1,0 +1,51 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+.row {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+div.section-header {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+div .product {
+  flex-basis: 20%;
+
+}
+.product img {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.product-brand {
+  font-weight:bold;
+  padding-right: 5px;
+}
+
+.product-size {
+  color:#d3d3d3;
+  border-left: solid 1px #d3d3d3;
+  padding-left:5px;
+}
+
+.sale-price {
+  font-weight: bold;
+  background-color: #fdf2e8;
+  padding:2px;
+}
+
+.retail-price {
+  color:#d3d3d3;
+  text-decoration: line-through;
+  padding-left: 5px;
+}
