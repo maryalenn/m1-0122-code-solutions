@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+body.dark {
+  background-color: #292828;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.lightbulb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  flex-basis: auto;
+}
+
+.light div.lightbulb {
+  background-color: yellow;
+  box-shadow: 6px 6px 35px 2px rgb(143 137 110);
+
+}
+
+.dark div.lightbulb {
+  background-color: #464643;
+  box-shadow: 6px 6px 35px 2px rgb(14 14 14);
+;
+}
