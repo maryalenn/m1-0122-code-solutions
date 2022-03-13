@@ -1,0 +1,35 @@
+* {
+font-family: 'Cutive', serif;
+margin:0;
+padding:0;
+
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.type-tutor {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.active {
+  border-bottom: solid 2px black;
+}
+
+.correct {
+  color: #6ea51d;
+}
+
+.incorrect {
+  color: red;
+}
+
+.incorrect.active {
+  border-bottom: red solid 2px;
+}
