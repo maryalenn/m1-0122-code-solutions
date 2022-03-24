@@ -20,10 +20,15 @@ var books = [
 console.log("books", books);
 console.log("books TypeOf: ", typeof(books));
 
-booksJSON = JSON.stringify(books);
+var booksJSON = JSON.stringify(books);
 console.log("JSON Stringify: ", booksJSON);
 console.log("JSON Stringify TypeOf: ", typeof(booksJSON));
 
-booksParsed = JSON.parse(booksJSON);
+var booksParsed = JSON.parse(booksJSON);
 console.log("booksParsed: ", booksParsed);
 console.log("booksParsed TypeOf", typeof(booksParsed))
+
+var student = '{"number": 123, "name": "Marya"}';
+var studentParsed = JSON.parse(student);
+console.log("studentParsed: ", studentParsed);
+console.log("studentParsed TypeOf: ", typeof(studentParsed));
